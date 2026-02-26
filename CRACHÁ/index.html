@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Crachá</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="container">
+    <div id="formulario">
+        <h2>Gerar Crachá</h2>
+
+        <label>Nome:</label>
+        <input type="text" id="nome">
+
+        <label>Cargo:</label>
+        <input type="text" id="cargo">
+
+        <label>Departamento:</label>
+        <select id="departamento">
+            <option value="">Selecione</option>
+            <option value="Design">Design</option>
+            <option value="Desenvolvimento">Desenvolvimento</option>
+            <option value="RH">RH</option>
+        </select>
+
+        <button id="btn-gerar">Gerar Crachá</button>
+    </div>
+    <div id="badge">
+        <img src="olagostaria.jpg" id="foto">
+
+        <h3 id="badge-nome">Nome</h3>
+        <p id="badge-cargo">Cargo</p>
+        <p id="badge-departamento">Departamento</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
